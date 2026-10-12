@@ -1,0 +1,42 @@
+{
+  "absent": [
+    "formatter configuration (tool defaults used)"
+  ],
+  "commit": "81522b7a98d290d0fdd0aec3b47b61e99785d8b2",
+  "lint": {
+    "capstone/app.js": 1,
+    "starter/app.js": 1
+  },
+  "recorded": "2026-10-12T06:31:21Z",
+  "roots": {},
+  "run": {
+    "env": {
+      "CI": "true"
+    },
+    "step_limit_seconds": 1800
+  },
+  "schema": 1,
+  "steps": {
+    "format": "fail",
+    "lint": "fail",
+    "secrets": "pass"
+  },
+  "tools": {
+    "format": {
+      "node": {
+        "<standard>": "prettier 3.9.8 (standard)"
+      },
+      "python": "ruff 0.16.8 (standard)"
+    },
+    "lint": {
+      "node": {
+        "<standard>": "minimal configuration, standard 2.0.0-rc.2"
+      },
+      "python": "ruff 0.16.8 (standard)"
+    }
+  },
+  "unformatted": [
+    "capstone/app.js",
+    "starter/app.js"
+  ]
+}
